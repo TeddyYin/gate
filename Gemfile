@@ -36,6 +36,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 
 # Use bootstrap
 gem 'bootstrap-sass'
+gem "simple_form"
 
 group :production do
   gem 'pg'
