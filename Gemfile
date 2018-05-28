@@ -42,8 +42,8 @@ gem "simple_form"
 gem "devise"
 
 group :production do
-  gem 'pg'
-  # gem 'rails_12factor'
+  gem 'pg', '~> 0.15'
+  gem 'rails_12factor'
 end
 
 group :development, :test do
